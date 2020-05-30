@@ -1,0 +1,2 @@
+# Semantic-segmentation
+A semantic segmentation model which processes the given x-ray image of the chest into a segmented map where the area occupied by the lungs is particularly segmented.The model uses the popular U-NET architecture to process the input image and has been trained using the tensorflow's keras api where dice-loss is used as the loss function and dice-coefficient as the performance metric.
